@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		741479541D844D3F005322D2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741479531D844D3F005322D2 /* main.swift */; };
 		7414795B1D844DC6005322D2 /* AnagramDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414795A1D844DC6005322D2 /* AnagramDictionary.swift */; };
+		7414795D1D8459BE005322D2 /* Anagramer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414795C1D8459BE005322D2 /* Anagramer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		741479501D844D3F005322D2 /* anagramer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = anagramer; sourceTree = BUILT_PRODUCTS_DIR; };
 		741479531D844D3F005322D2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7414795A1D844DC6005322D2 /* AnagramDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnagramDictionary.swift; sourceTree = "<group>"; };
+		7414795C1D8459BE005322D2 /* Anagramer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anagramer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				741479531D844D3F005322D2 /* main.swift */,
+				7414795C1D8459BE005322D2 /* Anagramer.swift */,
 				7414795A1D844DC6005322D2 /* AnagramDictionary.swift */,
 			);
 			path = anagramer;
@@ -126,6 +129,7 @@
 			files = (
 				741479541D844D3F005322D2 /* main.swift in Sources */,
 				7414795B1D844DC6005322D2 /* AnagramDictionary.swift in Sources */,
+				7414795D1D8459BE005322D2 /* Anagramer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,8 +229,8 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = 6XBC3G4NFX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_DISABLE_SAFETY_CHECKS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -236,7 +240,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = 6XBC3G4NFX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_DISABLE_SAFETY_CHECKS = YES;
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};

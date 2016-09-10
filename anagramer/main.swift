@@ -10,7 +10,7 @@ import Foundation
 
 var anagrams = AnagramDictionary()
 
-print(anagrams[of: "dog"])
-print(anagrams[of: "cat"])
-print(anagrams[of: "bob"])
+print(anagrams[of: "god", includeNonsense: false])
+print(anagrams[of: "city", includeNonsense: false])
+print(anagrams[of: "star", includeNonsense: false])
 
